@@ -15,10 +15,10 @@ cache:
 before_script:
   - export MAIN_DIR=`pwd`
   - cd $HOME
-  - mkdir cachebin
-  - cd cachebin
-  - touch testfile
+  - mkdir cachebin || (cd cachebin; touch testfile)
 
 script:
   - cd $MAIN_DIR
+  - chmod u+x ts3notify.sh
+  - ./ts3notify.sh
   - cd ..
