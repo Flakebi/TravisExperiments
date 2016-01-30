@@ -29,7 +29,7 @@ commitLink="[url=https://github.com/$TRAVIS_REPO_SLUG/commit/$TRAVIS_COMMIT]$com
 buildLink="[url=https://travis-ci.org/$TRAVIS_REPO_SLUG/builds/$TRAVIS_BUILD_ID]Build #$TRAVIS_BUILD_NUMBER[/url]"
 
 # get git info
-gitTitle= git log --format=%B -n 1 HEAD
+gitTitle=`git log --format=%B -n 1 HEAD`
 
 # form a nice message
 lb=$'\n'
