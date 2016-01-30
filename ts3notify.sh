@@ -14,10 +14,9 @@ function EscTS() {
 }
 
 EscTS $TRAVIS_TEST_RESULT
-msg = escTS
 
 nc -q 2 87.106.2.173 10011 <<EOF
 use 1
-sendtextmessage targetmode=3 target=1 msg=$msg
+sendtextmessage targetmode=3 target=1 msg=$escTS
 quit
 EOF
