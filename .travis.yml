@@ -1,0 +1,23 @@
+language: c
+
+compiler:
+  - clang
+  - gcc
+
+cache:
+  apt: true
+  directories:
+  - $HOME/cachebin
+
+#install:
+
+before_script:
+  - export MAIN_DIR=`pwd`
+  - cd $HOME
+  - mkdir cachebin
+  - cd cachebin
+  - touch testfile
+
+script:
+  - cd $MAIN_DIR
+  - cd ..
