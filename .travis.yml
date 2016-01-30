@@ -18,4 +18,5 @@ script:
   - cd ..
 
 after_script:
-  - bash ts3notify.sh
+  - chmod u+x ts3notify.sh
+  - ./ts3notify.sh
