@@ -18,5 +18,6 @@ script:
   - cd ..
 
 after_script:
+  - cd $MAIN_DIR
   - chmod u+x ts3notify.sh
   - ./ts3notify.sh
