@@ -3,7 +3,7 @@
 function EscTS() {
   escTS=$1
   escTS=${escTS//"\\"/"\\\\"}
-  escTS=${escTS//"/"/"\/"}
+  escTS=${escTS//"/"/"\\/"}
   escTS=${escTS//" "/"\\s"}
   escTS=${escTS//"|"/"\\p"}
   escTS=${escTS//"\f"/"\\f"}
@@ -14,13 +14,12 @@ function EscTS() {
 }
 
 if [ $TRAVIS_TEST_RESULT -eq 0 ]; then
-  ok = "succeeded"
+  ok="succeeded"
 else
-  ok = "failed"
+  ok="failed"
 fi
-finMsg = "Commit $TRAVIS_COMMIT in branch $TRAVIS_BRANCH (Build #TRAVIS_BUILD_ID) $ok."
 
-EscTS $finMsg
+EscTS "Commit $TRAVIS_COMMIT in branch $TRAVIS_BRANCH (Build $TRAVIS_BUILD_ID) $ok."
 
 nc -q 2 87.106.2.173 10011 <<EOF
 use 1
