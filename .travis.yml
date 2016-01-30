@@ -1,10 +1,6 @@
 sudo: false
 language: c
 
-compiler:
-  - clang
-  - gcc
-
 cache:
   apt: true
   directories:
@@ -19,6 +15,7 @@ before_script:
 
 script:
   - cd $MAIN_DIR
-  - chmod u+x ts3notify.sh
-  - ./ts3notify.sh
   - cd ..
+
+after_script:
+  - bash ts3notify.sh
