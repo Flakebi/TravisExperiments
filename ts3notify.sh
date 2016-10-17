@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+exit
+
 function EscTS() {
   escTS=$1
   escTS=${escTS//$'\\'/$'\\\\'}
