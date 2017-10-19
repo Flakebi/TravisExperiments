@@ -6,12 +6,23 @@ cache:
   directories:
   - $HOME/cachebin
 
+addons:
+  apt:
+    packages:
+    - zip
+    - gzip
+    - tar
+
 #install:
 
 before_script:
   - export MAIN_DIR=`pwd`
   - cd $HOME
   - mkdir cachebin || (cd cachebin; touch testfile)
+  - echo "fancy data" > testfile.a
+  - echo "more data" > testfile.b
+  - zip travis.zip testfile.a testfile.b
+  - curl -I -H "Content-Type: application/zip" -X PUT "http://splamy.de/splamy/api/nightly/travis/${TRAVIS_BRANCH}?token=${uploadkey}&filename=travis.zip&commit=${TRAVIS_COMMIT}&version=alpha" --upload-file travis.zip
 
 script:
   - cd $MAIN_DIR
