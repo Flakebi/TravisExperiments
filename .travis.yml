@@ -2,11 +2,6 @@ sudo: false
 language: csharp
 solution: TravisExperiments.sln
 
-cache:
-  apt: true
-  directories:
-  - $HOME/cachebin
-
 matrix:
   include:
     - dotnet: 2.1.4
@@ -17,7 +12,7 @@ matrix:
 #install:
 
 before_script:
-  - >
+  - |
     if [[ $DOTNETCORE = 1 ]]; then
       echo "dotnet core"
     else
@@ -25,13 +20,13 @@ before_script:
     fi
 
 script:
-  - >
+  - |
     if [[ $DOTNETCORE = 1 ]]; then
       dotnet build --framework netcoreapp2.0 TravisExperiments.sln
       dotnet bin/Debug/netcoreapp2.0/TravisExperiments.dll
     else
       msbuild /p:TargetFramework=net46 TravisExperiments.sln
-      mono bin/Debug/net46/TravisExperiments.dll
+      mono bin/Debug/net46/TravisExperiments.exe
     fi
 
 #after_script:
