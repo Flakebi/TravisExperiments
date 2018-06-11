@@ -18,19 +18,19 @@ matrix:
 
 before_script:
   - if [[ $DOTNETCORE = 1 ]]; then
-  -   echo "dotnet core"
-  - else
-  -   echo "mono"
-  - fi
+      echo "dotnet core"
+    else
+      echo "mono"
+    fi
 
 script:
   - if [[ $DOTNETCORE = 1 ]]; then
-  -   dotnet build --framework netcoreapp2.0 TravisExperiments.sln
-  -   dotnet bin/Debug/netcoreapp2.0/TravisExperiments.dll
-  - else
-  -   msbuild /p:TargetFramework=net46 TravisExperiments.sln
-  -   mono bin/Debug/net46/TravisExperiments.dll
-  - fi
+      dotnet build --framework netcoreapp2.0 TravisExperiments.sln
+      dotnet bin/Debug/netcoreapp2.0/TravisExperiments.dll
+    else
+      msbuild /p:TargetFramework=net46 TravisExperiments.sln
+      mono bin/Debug/net46/TravisExperiments.dll
+    fi
 
 #after_script:
 #  - cd $MAIN_DIR
