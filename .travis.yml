@@ -1,36 +1,38 @@
 sudo: false
-language: c
+language: csharp
+solution: TravisExperiments.sln
 
 cache:
   apt: true
   directories:
   - $HOME/cachebin
 
-addons:
-  apt:
-    packages:
-    - zip
-    - gzip
-    - tar
-    - curl
+matrix:
+  include:
+    - dotnet: 2.1.0
+      mono: none
+      env: DOTNETCORE=1
+    - mono: latest
 
 #install:
 
 before_script:
-  - export MAIN_DIR=`pwd`
-  - cd $HOME
-  - mkdir cachebin || (cd cachebin; touch testfile)
-  - echo "fancy data" > testfile.a
-  - echo "more data" > testfile.b
-  - zip travis.zip testfile.a testfile.b
-  - ls
-  - "curl -I -H \"Content-Type: application/zip\" -X PUT \"http://splamy.de/splamy/api/nightly/travis/${TRAVIS_BRANCH}?token=${uploadkey}&filename=travis.zip&commit=${TRAVIS_COMMIT}&version=alpha\" --upload-file ./travis.zip"
+  - if [ DOTNETCORE = 1 ]
+  -   echo "dotnet core"
+  - else
+  -   echo "mono"
+  - fi
 
 script:
-  - cd $MAIN_DIR
-  - cd ..
+  - if [ DOTNETCORE = 1 ]
+  -   dotnet build --framework netcoreapp2.0 TravisExperiments.sln
+  -   dotnet bin/Debug/netcoreapp2.0/TravisExperiments.dll
+  - else
+  -   msbuild /p:TargetFramework=net46 TravisExperiments.sln
+  -   mono bin/Debug/net46/TravisExperiments.dll
+  - fi
 
-after_script:
-  - cd $MAIN_DIR
-  - chmod u+x ts3notify.sh
-  - ./ts3notify.sh
+#after_script:
+#  - cd $MAIN_DIR
+#  - chmod u+x ts3notify.sh
+#  - ./ts3notify.sh
