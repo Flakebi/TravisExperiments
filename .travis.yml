@@ -17,14 +17,16 @@ matrix:
 #install:
 
 before_script:
-  - if [[ $DOTNETCORE = 1 ]]; then
+  - >
+    if [[ $DOTNETCORE = 1 ]]; then
       echo "dotnet core"
     else
       echo "mono"
     fi
 
 script:
-  - if [[ $DOTNETCORE = 1 ]]; then
+  - >
+    if [[ $DOTNETCORE = 1 ]]; then
       dotnet build --framework netcoreapp2.0 TravisExperiments.sln
       dotnet bin/Debug/netcoreapp2.0/TravisExperiments.dll
     else
