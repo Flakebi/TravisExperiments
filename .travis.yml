@@ -9,7 +9,7 @@ cache:
 
 matrix:
   include:
-    - dotnet: 2.1.0
+    - dotnet: 2.1.4
       mono: none
       env: DOTNETCORE=1
     - mono: latest
@@ -17,14 +17,14 @@ matrix:
 #install:
 
 before_script:
-  - if [ DOTNETCORE = 1 ]
+  - if [[ $DOTNETCORE = 1 ]]; then
   -   echo "dotnet core"
   - else
   -   echo "mono"
   - fi
 
 script:
-  - if [ DOTNETCORE = 1 ]
+  - if [[ $DOTNETCORE = 1 ]]; then
   -   dotnet build --framework netcoreapp2.0 TravisExperiments.sln
   -   dotnet bin/Debug/netcoreapp2.0/TravisExperiments.dll
   - else
