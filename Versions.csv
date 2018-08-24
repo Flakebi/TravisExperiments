@@ -1,4 +1,7 @@
 channel,version,platform,hash
+Stable,3.?.? [Build: 5680278000],Android,AWb948BY32Z7bpIyoAlQguSmxOGcmjESPceQe1DpW5IZ4+AW1KfTk2VUIYNfUPsxReDJMCtlhVKslzhR2lf0AA==
+Stable,3.?.? [Build: 5680278000],iOS,XrAf+Buq6Eb0ehEW/niFp06YX+nGGOS0Ke4MoUBzn+cX9q6G5C0A/d5XtgcNMe8r9jJgV/adIYVpsGS3pVlSAA==
+Stable,3.?.? [Build: 5680278000],Windows,DX5NIYLvfJEUjuIbCidnoeozxIDRRkpq3I9vVMBmE9L2qnekOoBzSenkzsg2lC9CMv8K5hkEzhr2TYUYSwUXCg==
 Stable,3.0.11 [Build: 1374563791],Windows,hQCwiLP5f4GIcDG5KQ1T+CNFGqRxyw5MXCHE8KjWRIgkjCuGSryK4vpPy70EURH3blQ8TKrax8BEorHlpnpdAQ==
 Stable,3.0.11 [Build: 1374830986],Windows,PJvjEuApy2McckLGGnAgw8kB2FE+yb4J/TuUdaLj+x5JVghSBR5tKJDQklLurJrshKynWzYYtokrtgBxTAz5CA==
 Stable,3.0.11 [Build: 1375083581],Windows,54wPDkfv0kT56UE0lv/LFkFJObH+Q4Irmo4Brfz1EcvjVhj8hJ+RCHcVTZsdKU2XvVvh+VLJpURulEHsAOsyBw==
@@ -70,18 +73,21 @@ Stable,3.1.1 [Build: 1486712038],Linux,umeERdZkG9pS3oeJTirnYK9Q947j8lVlszz2VXBPc
 Stable,3.1.1 [Build: 1486712038],Windows,sryyx++NhRWKDAo+Tnwv9N+IrOaQBP0XjjDszY0BBv0YIMr4jmdHtgrwzWkUqhU7kfql7qBWIhlb/r0l1ZHeBw==
 Stable,3.1.1.1 [Build: 1487668590],Linux,0B4RK2WOu5w39+CLznQtaexYeNqqBwU9YHBvSLw3bu+OAne8XtFc2NJzepjynrxwc1/xsmrm8uEZJzqzF+TcAg==
 Stable,3.1.1.1 [Build: 1487668590],Windows,CchjMitGiVGfRlGph0D1mDjOCJCnkVxR/WuYvNHdPyeQUCncRWML8jYxYfnhRF6CzViwYRnsmZkN+W5oenB2CQ==
+Stable,3.1.10 [Build: 1528537615],Linux,jEfjYy09JfbJPZ+W3fwqygOu8uuc5raYTGpbJ5F8dHLHpqUfvmCyJVKoXRieMNkmPzeiylsUc9/HiV+8bt8tDw==
+Stable,3.1.10 [Build: 1528537615],OS X,AJMF6gyw5DBtzAuW7aA7YcZaLIgOHFappwzWtE+0UUMYgMjMkSZ1LewDaW3YyRDHuLG5Nb7X26VNhFNZu+ohBw==
+Stable,3.1.10 [Build: 1528537615],Windows,+/BWvueikGg4YkO1v2uuZB5vtJJgUZ5bL8cRfxAstfnCVdro2ja+4a+8rGUzDx8/vvTZOUVD6U95hnWb638MCQ==
 Stable,3.1.2 [Build: 1489662774],Linux,W9TgKEviDgWvrQErw8vaoQcPboaUx8xRL5MPoQzlur9eO2yseHgvzkpWGYqSQyCI+ptcCpTHaXRFym0imKnfBA==
 Stable,3.1.2 [Build: 1489662774],Windows,5Aaj21gGFtrjW9424ezfLa1SMQBpZvgQgcJLZmrLoNMe4XebBPV2s8rxEDAIodfFpruLxLFbFpH63A/BGnJyDw==
 Stable,3.1.3 [Build: 1490279472],Linux,Y1M2TQvKLGmUSP4YPuTBQOeUxmF+jaqazFXuN4v2gOKP8QmxyYOsg9PsG9z7SFYQkgneQxs8QdzC+IGo0bOWBQ==
 Stable,3.1.3 [Build: 1490279472],Windows,7RPY2bzJmMdgVX24VuKD3lTnYYb6yHWqfn2x21tFOjXL9q+2t7tU9Vy8Bh5/IpeiqklUHTWc23mWpYOCoW9eCA==
 Stable,3.1.4 [Build: 1491993378],Linux,wJPx0S2Q2S8EgSEpZhu+Yp80d6xVQDX5u9DYgm7XxI7sh7gJIoBbdaE5cfjwR2UN6XFyV+V/2AV4stB3CxtgCQ==
 Stable,3.1.4 [Build: 1491993378],Windows,rwdyEwnJCzbVfNCqbxMrRyhL5BSYqYSzKQkeZ6m5KImc1F8VB8wEkwwwyxoG7SimC/sxIyy4h27CjBFP6rcgBQ==
+Stable,3.1.4.2 [Build: 1498644101],Linux,Rv3SzHDwLIkuUqySQhn279jf2b7PPzCQH2q53zHWH5qyFL/Qw4m/n7ZrXEF46/sUSpOPFPYjfKMKcN/9IRCoCQ==
+Stable,3.1.4.2 [Build: 1498644101],Windows,WtscrpvJG13kbF6aoVzsGwQuE/WwR1b8++ydDc8IpmiXLw+zFC6zFUvLinOeE0zZgh2Hs5Amp3DZoPJSynOWBg==
 Stable,3.1.5 [Build: 1496989945],Linux,874htNIqcKQfggAbYrkm3OaJAaqIgWmdqKxQUpi+g1+2+aFf9Uxb407ikxG6p2Pgnk8v9Oo/chpX7E7ZCUvfBw==
 Stable,3.1.5 [Build: 1496989945],Windows,vCK7AxxVis7dQyEy5dwV3+ctSX3RUudj6OoQLW0AUDkYzkr1zp17srD6BQNZUBpaQRCQJqqDsCT4dYIpxt1vDQ==
 Stable,3.1.5 [Build: 1497432760],Linux,xbASm01EnV14LfoXSPARGULDZRzsn8aqQkkGuHv3efXKc4hDCVOcFglYFi/aDbLc/KkAJlHo0WEvXZHNOXlcCg==
 Stable,3.1.5 [Build: 1497432760],Windows,9yBvw4TOcihVsVlN37Gf3bV4EF1nyLMbcq5E+7WbootiDC+GNEA8oDRSeGadHhquf/B4G2CIDhhvjYW/X6+rAg==
-Stable,3.1.4.2 [Build: 1498644101],Linux,Rv3SzHDwLIkuUqySQhn279jf2b7PPzCQH2q53zHWH5qyFL/Qw4m/n7ZrXEF46/sUSpOPFPYjfKMKcN/9IRCoCQ==
-Stable,3.1.4.2 [Build: 1498644101],Windows,WtscrpvJG13kbF6aoVzsGwQuE/WwR1b8++ydDc8IpmiXLw+zFC6zFUvLinOeE0zZgh2Hs5Amp3DZoPJSynOWBg==
 Stable,3.1.5 [Build: 1498740787],Linux,pMgKa82Qhu+5V/S7EWv0+sChqG3Hcy8k5cp1EN6TG2wiZWZAoWR2GLC5CW4+SS4fRUrLADnR+PaEjB46N3T0Dw==
 Stable,3.1.5 [Build: 1498740787],Windows,iL8prlQuMXIMBJrszzjyPa7k36GA9DsyVEOg5L9uoK/EFc5lXH4Pv6TYj4yPZt3p6cd8OMkPfuHfXj5bn8fpDg==
 Stable,3.1.5 [Build: 1499699899],Linux,cdnb57y0GEtvwgHoubRU9f27CEeoA4iho0JuAzmdFrTArFrFSlI9kGKuypVgjKGhv/+HcVzDCj/ncM8X567xDQ==
@@ -106,8 +112,8 @@ Stable,3.1.8 [Build: 1516099541],Windows,nwdwhrNjGH5IhaNoYGpJOKl0jsSYmq5f6jb0Y7E
 Stable,3.1.8 [Build: 1516349129],Windows,scnT3q9ViDVUSKceKSPQ4p50He1m0tlT9FsxSj8YMLfOoh50SKbqZEzrRTJ1aGwsGYb8x88JhjdlhDBRPhwhCQ==
 Stable,3.1.8 [Build: 1516614607],Linux,LJ5q+KWT4KwBX7oR/9j9A12hBrq5ds5ony99f9kepNmqFskhT7gfB51bAJNgAMOzXVCeaItNmc10F2wUNktqCw==
 Stable,3.1.8 [Build: 1516614607],Windows,gDEgQf/BiOQZdAheKccM1XWcMUj2OUQqt75oFuvF2c0MQMXyv88cZQdUuckKbcBRp7RpmLInto4PIgd7mPO7BQ==
-Stable,3.1.8 [Build: 1516887927],iOS,pdWyIOpTWECIdA2NExrjqY1a7Q0alFyU7MgiDJYdiUXAspusOHwMIcfKm7oAh+Ty2gcgVgOh8wAPyZcKFKYXBA==
 Stable,3.1.8 [Build: 1516865456],Android,sG/qsKb9iZpBRXFSYY2Tuq7ZLUKHcmgA/6Qe/cx35L3risqoH4aGkPkDicuKtaQi8Ikh4IrQz6xe7V49M+8VBg==
+Stable,3.1.8 [Build: 1516887927],iOS,pdWyIOpTWECIdA2NExrjqY1a7Q0alFyU7MgiDJYdiUXAspusOHwMIcfKm7oAh+Ty2gcgVgOh8wAPyZcKFKYXBA==
 Alpha,3.1.9 [Build: 1520246719],OS X,gTeib0sqVKETwmYTAD6rrzgmqDHE/smMgOPTiuHPj6218mgPkhWuRWAE8pD+gm3cLMBfRl/2XlllMViYbok0DQ==
 Alpha,3.1.9 [Build: 1520591856],OS X,3Kf8a0ShGCPKCnSREnJe40BxQ/jBPoBx2qFM5JDYHsQPPsL1sg5seapmMBdYoqMnkYYK5IHN0eSkrnwzXTPpAg==
 Alpha,3.1.9 [Build: 1521637641],OS X,XljC4PFgstQBBbk1dPwGWSVK4eGIJCURlbONVTkGsatSXhDqfNdpLabDbEkxc1FTjcnNUAzNwDG3rn7uiFZ1AQ==
@@ -115,18 +121,13 @@ Alpha,3.1.9 [Build: 1523609596],OS X,ZtO4KjCcr1J/+ENQdwao8kheUQkcIhOahr0MmnToGRo
 Stable,3.1.9 [Build: 1525442084],Linux,wBcnfNU7FA0CvFeisKhywZWzmUqD6IBFbYQTveMvxWowXUjWwNHTg9tbRLQ1YgBFDdlOwV36VMX7aAMXMX2rAA==
 Stable,3.1.9 [Build: 1525442084],OS X,WVaMmYPig4eG2JUM8cMMW2MA7+IoRoPUSr74CPe7oS8TLHGjYxPr1FP88op6YsFFQrPJysWmIsnGR7BiFXjHCQ==
 Stable,3.1.9 [Build: 1525442084],Windows,2SLjPTFXM9hQyNkeEGYIzs0fkBffyhsh5z+ZuaCcZdDfM8vgRM5lrAU6KNspFjLddcvw8cXw6gxRY73ZHsRVBg==
-Stable,3.1.10 [Build: 1528537615],Linux,jEfjYy09JfbJPZ+W3fwqygOu8uuc5raYTGpbJ5F8dHLHpqUfvmCyJVKoXRieMNkmPzeiylsUc9/HiV+8bt8tDw==
-Stable,3.1.10 [Build: 1528537615],Windows,+/BWvueikGg4YkO1v2uuZB5vtJJgUZ5bL8cRfxAstfnCVdro2ja+4a+8rGUzDx8/vvTZOUVD6U95hnWb638MCQ==
-Stable,3.1.10 [Build: 1528537615],OS X,AJMF6gyw5DBtzAuW7aA7YcZaLIgOHFappwzWtE+0UUMYgMjMkSZ1LewDaW3YyRDHuLG5Nb7X26VNhFNZu+ohBw==
 Beta,3.2.0 [Build: 1530183207],Windows,6LYlvxFIPCVnYmmFd64H8SRmxsX+y3IZOe9ju8PbZLI5j2K7ni6Z0BfEyhVprYP9VA5o4bXVrV+uNbdGSKnjCQ==
 Stable,3.2.0 [Build: 1533739581],Linux,Vt+iPp952TU4uKwGXY0L61mXgBNfXg+1+16fnS0snPU9fhkfOKzdPN4rBELOwJ5XzZc33KdVC8rzZGYzlQceBg==
-Stable,3.2.0 [Build: 1533739581],Windows,TJ1XoCjQz+VxW15qiGInWf5llTBtVu+2m2ShbY0/HWTM7adLyfThq7wzSgr09Fvowibvu91nOFxTlIpPXCAVAQ==
 Stable,3.2.0 [Build: 1533739581],OS X,WkySbYMiHN22ra3Y1cktHyeNikQ4fZ0K++8brc+8ImYhuzrmuzeGwL+QNaPJNty7stTNCfRUSpDzVAWz5TYQCA==
+Stable,3.2.0 [Build: 1533739581],Windows,TJ1XoCjQz+VxW15qiGInWf5llTBtVu+2m2ShbY0/HWTM7adLyfThq7wzSgr09Fvowibvu91nOFxTlIpPXCAVAQ==
 Stable,3.2.1 [Build: 1534255236],Linux,betw82OYRNjyhXDHmmUKwR6xfvyPHBMdkn+jukQKNG8PPLKOfLFb0OAMXPZxp9n8gio840gFowwA/jnbg/OMBw==
 Stable,3.2.1 [Build: 1534255236],OS X,AWbZhd8XH+s7uu5Qkb2QkdDcc9/WXfNu2iKWD+e6m2oTrOmI1Jt55SsyDTvkpBpumnWsrtR/GI2nK9HbmFhGAw==
+Stable,3.2.1 [Build: 1534255236],Windows,RtNOb2UrlXwwy3lplxRilvknygxamwb3eKlRRAsG5YjrMEikStl/Sf+oJgFUFBBMSJ+q+xPx3+xfOmMxAkB8Bg==
 Beta,3.2.2 [Build: 1535010838],Linux,7uY1DWoJD2x80002ha6jSkNRXGcfHAqS9hdJz80JjafvhmxlhQKSwfsofFjEq10TI8LFbhLdv7TQxd+gPyNEAg==
 Beta,3.2.2 [Build: 1535010838],OS X,qvbU2yq0wzSxPLPClraVmriM1Z+yB9qq5UzQ+gxuwE6dG8k/eosJH9xBhL7bhgcJKRgY2vsL00vbiLk19c+rBA==
 Beta,3.2.2 [Build: 1535010838],Windows,ZUdctNEUa/SrRrXbqFCESmKIVDJj0nJrO0vwvxDNJGB/p65vf5GqvX9p625FOXO50dxxHPIIAvJDEjM/TxeuBg==
-Stable,3.?.? [Build: 5680278000],Windows,DX5NIYLvfJEUjuIbCidnoeozxIDRRkpq3I9vVMBmE9L2qnekOoBzSenkzsg2lC9CMv8K5hkEzhr2TYUYSwUXCg==
-Stable,3.?.? [Build: 5680278000],Android,AWb948BY32Z7bpIyoAlQguSmxOGcmjESPceQe1DpW5IZ4+AW1KfTk2VUIYNfUPsxReDJMCtlhVKslzhR2lf0AA==
-Stable,3.?.? [Build: 5680278000],iOS,XrAf+Buq6Eb0ehEW/niFp06YX+nGGOS0Ke4MoUBzn+cX9q6G5C0A/d5XtgcNMe8r9jJgV/adIYVpsGS3pVlSAA==
