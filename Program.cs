@@ -1,5 +1,4 @@
 ﻿using System;
-using TS3AudioBot.Helper.Environment;
 
 namespace TravisExperiments
 {
